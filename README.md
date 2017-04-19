@@ -24,7 +24,7 @@ sudo apt-get install python-smbus
 sudo apt-get install libi2c-dev     
 ```
 
-##Check the bus
+## Check the bus
 To detect all the devices that are connectet to the i2c pins in the GPIO header run this as sudo(!)
 ```
 sudo i2cdetect -y 1
